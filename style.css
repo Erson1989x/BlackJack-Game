@@ -1,0 +1,51 @@
+/* --- Reset --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: green;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+/* --- Main content --- */
+
+.main-container{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+.main-container p {
+    color: white;
+}
+
+.main-container button {
+    background: goldenrod;
+    color: green;
+    cursor: pointer;
+    width: 400px;
+    height: 65px;
+    font-size: 3rem;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    transition: 0.2s ease-in-out;
+    border: none;
+}
+
+.main-container button:hover {
+    background: white;
+    color: goldenrod;
+}
